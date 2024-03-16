@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'Alphabetized Cassette Tapes Thin';
+    src: url('./fonts/alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf') format('truetype');
+}
+
+.free {
+    font-family: 'Alphabetized Cassette Tapes Thin';
+    font-size: 16px;
+}
