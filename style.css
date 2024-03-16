@@ -21,6 +21,25 @@
     padding: 10px;
 }
 
+.boxshadow,
+.blurbackground {
+    background: linear-gradient(to right, #44FF9A, #44B0FF, #8B44FF, #FF6644, #EBFF70);
+    position: relative;
+}
+
+.boxshadow::after,
+.blurbackground::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background: inherit;
+    filter: blur(20px);
+    z-index: -1;
+}
+
 /* .bg-free-gradient {
     background: linear-gradient(90deg,
             #f0fbb9 0%,
