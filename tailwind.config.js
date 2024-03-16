@@ -16,10 +16,10 @@ module.exports = {
         customColor3: '#0000ff', // Blue
       },
       fontFamily: {
+        mulish: ["Mulish", "sans-serif"],
         opensans: ["Open Sans", "sans-serif"],
         plusjakartasans: ["Plus Jakarta Sans", "sans-serif"],
         inter: ["Inter", "sans-serif"],
-        mulish: ["Mulish", "sans-serif"],
       },
     },
       screens: {
