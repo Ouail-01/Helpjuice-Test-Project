@@ -40,6 +40,10 @@
     z-index: -1;
 }
 
+.linearbackground {
+    background: linear-gradient(to right, #F0FBB9, #FBB3A0, #BFA2FD, #A4D0FC, #9FE9E2, #9FFACE);
+}
+
 /* .bg-free-gradient {
     background: linear-gradient(90deg,
             #f0fbb9 0%,

@@ -12,7 +12,7 @@ module.exports = {
         "quaternary": "#03132e",
         // New custom colors
         customColor1: '#1E293B', // dark-blue
-        customColor2: '#00ff00', // Green
+        customColor2: '#FFB101', //yellow
         customColor3: '#0000ff', // Blue
       },
       fontFamily: {
