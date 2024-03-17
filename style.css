@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@font-face {
+    font-family: 'Alphabetized Cassette Tapes Thin';
+    src: url('./fonts/alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf') format('truetype');
+}
+
+.free {
+    font-family: 'Alphabetized Cassette Tapes Thin';
+    font-size: 16px;
+}
+
+.bg-gradient {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ab96f8, #ff99d0);
+    padding: 10px;
+}
+
+.boxshadow,
+.blurbackground {
+    background: linear-gradient(to right, #44FF9A, #44B0FF, #8B44FF, #FF6644, #EBFF70);
+    position: relative;
+}
+
+.boxshadow::after,
+.blurbackground::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background: inherit;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.linearbackground {
+    background: linear-gradient(to right, rgba(240, 251, 185, 0.6), rgba(251, 179, 160, 0.6), rgba(191, 162, 253, 0.6), rgba(164, 208, 252, 0.6), rgba(159, 233, 226, 0.6), rgba(159, 250, 206, 0.6));
+
+}
+
+.text-box::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 0;
+    background: linear-gradient(to right, #44FF9A, #44B0FF, #8B44FF, #FF6644, #EBFF70);
+    filter: blur(30px);
+}
