@@ -6,14 +6,12 @@ module.exports = {
       colors: {
         "primary": "#18181B",
         "primary-2": "#878686",
-        // "primary-3": "#4F4F4F",
         "secondary": "#4F4F4F",
         "tertiary": "#fff",
         "quaternary": "#03132e",
         // New custom colors
         customColor1: '#1E293B', // dark-blue
         customColor2: '#FFB101', //yellow
-        customColor3: '#0000ff', // Blue
       },
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],
@@ -30,11 +28,3 @@ module.exports = {
     },
   plugins: [],
 };
-// module.exports = {
-//   content: [],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
-
